@@ -25,6 +25,7 @@ namespace WinFormsApp1
             get { return hMax; }
             set { hMax = value; }
         }
+        //c
         public int HMin
         {
             get { return hMin; }
