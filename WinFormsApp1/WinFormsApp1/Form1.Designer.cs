@@ -46,10 +46,10 @@
             // pictureBox1
             // 
             pictureBox1.Image = Properties.Resources.gru_rotazione_alta_raimondi_5;
-            pictureBox1.Location = new Point(347, 65);
+            pictureBox1.Location = new Point(304, 49);
             pictureBox1.Margin = new Padding(3, 4, 3, 4);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(523, 461);
+            pictureBox1.Size = new Size(458, 346);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 2;
             pictureBox1.TabStop = false;
@@ -58,17 +58,17 @@
             // pictureBox2
             // 
             pictureBox2.Image = Properties.Resources.gancio;
-            pictureBox2.Location = new Point(347, 195);
+            pictureBox2.Location = new Point(304, 146);
             pictureBox2.Margin = new Padding(3, 4, 3, 4);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(114, 115);
+            pictureBox2.Size = new Size(100, 86);
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox2.TabIndex = 3;
             pictureBox2.TabStop = false;
             // 
             // button3
             // 
-            button3.Location = new Point(149, 385);
+            button3.Location = new Point(109, 255);
             button3.Margin = new Padding(3, 4, 3, 4);
             button3.Name = "button3";
             button3.Size = new Size(86, 31);
@@ -79,7 +79,7 @@
             // 
             // button4
             // 
-            button4.Location = new Point(149, 443);
+            button4.Location = new Point(109, 294);
             button4.Margin = new Padding(3, 4, 3, 4);
             button4.Name = "button4";
             button4.Size = new Size(86, 31);
@@ -91,7 +91,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(149, 92);
+            label1.Location = new Point(109, 91);
             label1.Name = "label1";
             label1.Size = new Size(45, 20);
             label1.TabIndex = 6;
@@ -100,7 +100,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(149, 149);
+            label2.Location = new Point(112, 145);
             label2.Name = "label2";
             label2.Size = new Size(42, 20);
             label2.TabIndex = 7;
@@ -109,7 +109,7 @@
             // 
             // button1
             // 
-            button1.Location = new Point(149, 492);
+            button1.Location = new Point(109, 333);
             button1.Margin = new Padding(3, 4, 3, 4);
             button1.Name = "button1";
             button1.Size = new Size(86, 35);
@@ -121,7 +121,7 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(139, 211);
+            label3.Location = new Point(109, 195);
             label3.Name = "label3";
             label3.Size = new Size(58, 20);
             label3.TabIndex = 9;
@@ -129,7 +129,7 @@
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(198, 88);
+            textBox1.Location = new Point(172, 88);
             textBox1.Margin = new Padding(3, 4, 3, 4);
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(114, 27);
@@ -137,7 +137,7 @@
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(198, 145);
+            textBox2.Location = new Point(172, 145);
             textBox2.Margin = new Padding(3, 4, 3, 4);
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(114, 27);
@@ -145,7 +145,7 @@
             // 
             // button2
             // 
-            button2.Location = new Point(203, 207);
+            button2.Location = new Point(172, 195);
             button2.Name = "button2";
             button2.Size = new Size(94, 29);
             button2.TabIndex = 13;
@@ -157,7 +157,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(914, 600);
+            ClientSize = new Size(798, 442);
             Controls.Add(button2);
             Controls.Add(textBox2);
             Controls.Add(textBox1);

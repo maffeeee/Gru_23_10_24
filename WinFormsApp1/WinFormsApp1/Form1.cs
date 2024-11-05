@@ -1,3 +1,5 @@
+using System.Windows.Forms;
+
 namespace WinFormsApp1
 {
     public partial class Form1 : Form
@@ -21,30 +23,46 @@ namespace WinFormsApp1
 
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            gru = new Gru(1, "Produttore", 309, 146);
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            gru.Alza(5);
-            pictureBox2.Location = new Point(pictureBox2.Location.X, pictureBox2.Location.Y - 5);
+            if (pictureBox2.Location.Y - 5 > gru.HMin)
+            {
+                gru.Alza(5);
+                pictureBox2.Location = new Point(pictureBox2.Location.X, pictureBox2.Location.Y - 5);
+            }
+            else
+            {
+                pictureBox2.Location = new Point(pictureBox2.Location.X, gru.HMin);
+            }
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            gru.Abbassa(5);
-            pictureBox2.Location = new Point(pictureBox2.Location.X, pictureBox2.Location.Y + 5);
+            if (pictureBox2.Location.Y + 5 < gru.HMax)
+            {
+                gru.Abbassa(5);
+                pictureBox2.Location = new Point(pictureBox2.Location.X, pictureBox2.Location.Y + 5);
+            }
+            else
+            {
+                pictureBox2.Location = new Point(pictureBox2.Location.X, gru.HMax);
+            }
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            pictureBox2.Location = new Point(347, 195);
+            pictureBox2.Location = new Point(pictureBox2.Location.X, gru.HMin);
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            gru = new Gru(1, "Produttore", Convert.ToInt32(textBox1.Text), Convert.ToInt32(textBox2.Text));
-
+            if (Convert.ToInt16(textBox2.Text) >= 146 && Convert.ToInt16(textBox1.Text) <= 309)
+                gru.HMin = Convert.ToInt16(textBox2.Text);
+            gru.HMax = Convert.ToInt16(textBox1.Text);
+            pictureBox2.Location = new Point(pictureBox2.Location.X, gru.HMin);
         }
     }
 }
