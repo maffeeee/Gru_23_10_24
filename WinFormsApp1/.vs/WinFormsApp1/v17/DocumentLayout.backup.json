@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\matty\\Gru_23_10_24\\WinFormsApp1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{06907D98-4879-4D89-BA46-D536DC75F47B}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\matty\\gru_23_10_24\\winformsapp1\\winformsapp1\\gru.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{06907D98-4879-4D89-BA46-D536DC75F47B}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\gru.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{06907D98-4879-4D89-BA46-D536DC75F47B}|WinFormsApp1\\WinFormsApp1.csproj|C:\\Users\\matty\\Gru_23_10_24\\WinFormsApp1\\winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{06907D98-4879-4D89-BA46-D536DC75F47B}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{06907D98-4879-4D89-BA46-D536DC75F47B}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\matty\\gru_23_10_24\\winformsapp1\\winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{06907D98-4879-4D89-BA46-D536DC75F47B}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{06907D98-4879-4D89-BA46-D536DC75F47B}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\matty\\gru_23_10_24\\winformsapp1\\winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{06907D98-4879-4D89-BA46-D536DC75F47B}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{06907D98-4879-4D89-BA46-D536DC75F47B}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\matty\\gru_23_10_24\\winformsapp1\\winformsapp1\\stazionediradiocomando.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06907D98-4879-4D89-BA46-D536DC75F47B}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\stazionediradiocomando.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{06907D98-4879-4D89-BA46-D536DC75F47B}|WinFormsApp1\\WinFormsApp1.csproj|c:\\users\\matty\\gru_23_10_24\\winformsapp1\\winformsapp1\\gru.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{06907D98-4879-4D89-BA46-D536DC75F47B}|WinFormsApp1\\WinFormsApp1.csproj|solutionrelative:winformsapp1\\gru.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,19 +26,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Gru.cs",
               "DocumentMoniker": "C:\\Users\\matty\\Gru_23_10_24\\WinFormsApp1\\WinFormsApp1\\Gru.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\Gru.cs",
               "ToolTip": "C:\\Users\\matty\\Gru_23_10_24\\WinFormsApp1\\WinFormsApp1\\Gru.cs",
               "RelativeToolTip": "WinFormsApp1\\Gru.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAAmwBAAAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-23T10:51:31.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StazioneDiRadiocomando.cs",
+              "DocumentMoniker": "C:\\Users\\matty\\Gru_23_10_24\\WinFormsApp1\\WinFormsApp1\\StazioneDiRadiocomando.cs",
+              "RelativeDocumentMoniker": "WinFormsApp1\\StazioneDiRadiocomando.cs",
+              "ToolTip": "C:\\Users\\matty\\Gru_23_10_24\\WinFormsApp1\\WinFormsApp1\\StazioneDiRadiocomando.cs",
+              "RelativeToolTip": "WinFormsApp1\\StazioneDiRadiocomando.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAjwA0AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-05T14:17:46.854Z",
               "EditorCaption": ""
             },
             {
@@ -45,14 +62,14 @@
               "RelativeDocumentMoniker": "WinFormsApp1\\Form1.cs",
               "ToolTip": "C:\\Users\\matty\\Gru_23_10_24\\WinFormsApp1\\WinFormsApp1\\Form1.cs",
               "RelativeToolTip": "WinFormsApp1\\Form1.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACMAAAAAgF7ohV7gvy4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-23T10:26:44.932Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Form1.cs [Progettazione]",
               "DocumentMoniker": "C:\\Users\\matty\\Gru_23_10_24\\WinFormsApp1\\WinFormsApp1\\Form1.cs",
               "RelativeDocumentMoniker": "WinFormsApp1\\Form1.cs",

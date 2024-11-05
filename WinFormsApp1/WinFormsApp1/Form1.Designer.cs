@@ -38,7 +38,7 @@
             label3 = new Label();
             textBox1 = new TextBox();
             textBox2 = new TextBox();
-            textBox3 = new TextBox();
+            button2 = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
@@ -46,9 +46,10 @@
             // pictureBox1
             // 
             pictureBox1.Image = Properties.Resources.gru_rotazione_alta_raimondi_5;
-            pictureBox1.Location = new Point(304, 49);
+            pictureBox1.Location = new Point(347, 65);
+            pictureBox1.Margin = new Padding(3, 4, 3, 4);
             pictureBox1.Name = "pictureBox1";
-            pictureBox1.Size = new Size(458, 346);
+            pictureBox1.Size = new Size(523, 461);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox1.TabIndex = 2;
             pictureBox1.TabStop = false;
@@ -57,95 +58,107 @@
             // pictureBox2
             // 
             pictureBox2.Image = Properties.Resources.gancio;
-            pictureBox2.Location = new Point(304, 144);
+            pictureBox2.Location = new Point(347, 195);
+            pictureBox2.Margin = new Padding(3, 4, 3, 4);
             pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(100, 86);
+            pictureBox2.Size = new Size(114, 115);
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox2.TabIndex = 3;
             pictureBox2.TabStop = false;
             // 
             // button3
             // 
-            button3.Location = new Point(130, 289);
+            button3.Location = new Point(149, 385);
+            button3.Margin = new Padding(3, 4, 3, 4);
             button3.Name = "button3";
-            button3.Size = new Size(75, 23);
+            button3.Size = new Size(86, 31);
             button3.TabIndex = 4;
             button3.Text = "su";
             button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
             // button4
             // 
-            button4.Location = new Point(130, 332);
+            button4.Location = new Point(149, 443);
+            button4.Margin = new Padding(3, 4, 3, 4);
             button4.Name = "button4";
-            button4.Size = new Size(75, 23);
+            button4.Size = new Size(86, 31);
             button4.TabIndex = 5;
             button4.Text = "giù";
             button4.UseVisualStyleBackColor = true;
+            button4.Click += button4_Click;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(130, 69);
+            label1.Location = new Point(149, 92);
             label1.Name = "label1";
-            label1.Size = new Size(37, 15);
+            label1.Size = new Size(45, 20);
             label1.TabIndex = 6;
             label1.Text = "hmax";
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(130, 112);
+            label2.Location = new Point(149, 149);
             label2.Name = "label2";
-            label2.Size = new Size(35, 15);
+            label2.Size = new Size(42, 20);
             label2.TabIndex = 7;
             label2.Text = "hmin";
             label2.Click += label2_Click;
             // 
             // button1
             // 
-            button1.Location = new Point(130, 369);
+            button1.Location = new Point(149, 492);
+            button1.Margin = new Padding(3, 4, 3, 4);
             button1.Name = "button1";
-            button1.Size = new Size(75, 26);
+            button1.Size = new Size(86, 35);
             button1.TabIndex = 8;
             button1.Text = "reset";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(122, 158);
+            label3.Location = new Point(139, 211);
             label3.Name = "label3";
-            label3.Size = new Size(45, 15);
+            label3.Size = new Size(58, 20);
             label3.TabIndex = 9;
             label3.Text = "applica";
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(173, 66);
+            textBox1.Location = new Point(198, 88);
+            textBox1.Margin = new Padding(3, 4, 3, 4);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(100, 23);
+            textBox1.Size = new Size(114, 27);
             textBox1.TabIndex = 10;
             // 
             // textBox2
             // 
-            textBox2.Location = new Point(173, 109);
+            textBox2.Location = new Point(198, 145);
+            textBox2.Margin = new Padding(3, 4, 3, 4);
             textBox2.Name = "textBox2";
-            textBox2.Size = new Size(100, 23);
+            textBox2.Size = new Size(114, 27);
             textBox2.TabIndex = 11;
             // 
-            // textBox3
+            // button2
             // 
-            textBox3.Location = new Point(173, 158);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(100, 23);
-            textBox3.TabIndex = 12;
+            button2.Location = new Point(203, 207);
+            button2.Name = "button2";
+            button2.Size = new Size(94, 29);
+            button2.TabIndex = 13;
+            button2.Text = "applica";
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
-            Controls.Add(textBox3);
+            ClientSize = new Size(914, 600);
+            Controls.Add(button2);
             Controls.Add(textBox2);
             Controls.Add(textBox1);
             Controls.Add(label3);
@@ -156,6 +169,7 @@
             Controls.Add(button3);
             Controls.Add(pictureBox2);
             Controls.Add(pictureBox1);
+            Margin = new Padding(3, 4, 3, 4);
             Name = "Form1";
             Text = "Form1";
             Load += Form1_Load;
@@ -176,6 +190,6 @@
         private Label label3;
         private TextBox textBox1;
         private TextBox textBox2;
-        private TextBox textBox3;
+        private Button button2;
     }
 }
